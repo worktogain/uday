@@ -1,0 +1,22 @@
+ul li{
+    display: inline;
+    margin:10px 17px;
+    color: white;
+    font-size: 20px;
+    transition: ease 1s;
+    float: right;
+    width: 40px;
+}
+ul{
+    background-color: black;
+    border-radius: 5px;
+    height: 6vh;
+    text-align: center;
+}
+ul li:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 300px;
+}
